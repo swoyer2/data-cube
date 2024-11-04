@@ -2,8 +2,8 @@ class RubiksCube:
     def __init__(self):
         # Initialize a solved Rubik's Cube with pieces
         self.pieces = [
-            'WBO', 'WB', 'WBR', 'WO', 'WGR', 'WGO',
-            'YBO', 'YBR', 'YGR', 'YGO', 'WR', 'WG',
+            'WBO', 'WB', 'WBR', 'WO', 'WR', 'WGO', 'WG', 'WGR', # Top layer
+            'YBO', 'YBR', 'YGR', 'YGO',
             'YO', 'YR', 'YG', 'YB',
             'GO', 'GR', 'BO', 'BR', 
             'W', 'Y', 'G', 'B', 'O', 'R'
